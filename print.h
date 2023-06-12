@@ -1,4 +1,4 @@
-void printBoard(int board[N][N]);
-bool isValid(int board[N][N], int row, int col);
-bool solveNQueen(int board[N][N], int col);
-bool checkSolution();
+void print(int n);
+bool isSafe(int col, int row, int n);
+bool solve (int n, int row);
+
